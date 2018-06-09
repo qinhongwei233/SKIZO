@@ -38,7 +38,7 @@ static const int cfq_hist_divisor = 4;
 /*
  * offset from end of queue service tree for idle class
  */
-#define CFQ_IDLE_DELAY		(NSEC_PER_SEC / 5)
+#define CFQ_IDLE_DELAY		(msecs_to_jiffies(200))
 /* offset from end of group service tree under time slice mode */
 #define CFQ_SLICE_MODE_GROUP_DELAY (NSEC_PER_SEC / 5)
 /* offset from end of group service under IOPS mode */
