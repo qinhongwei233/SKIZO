@@ -14,6 +14,7 @@ obj-$(CONFIG_MACH_XIAOMI_MSM8998) += msm-elliptic.o apr_elliptic.o
 ccflags-$(CONFIG_MACH_XIAOMI_MSM8998) += -I$(srctree)/drivers/elliptic
 
 obj-$(CONFIG_SND_HWDEP) += msm-pcm-routing-devdep.o
+obj-$(CONFIG_DTS_EAGLE) += msm-dts-eagle.o
 obj-$(CONFIG_DOLBY_DAP) += msm-dolby-dap-config.o
 obj-$(CONFIG_DOLBY_DS2) += msm-ds2-dap-config.o
 obj-$(CONFIG_DOLBY_LICENSE) += msm-ds2-dap-config.o
