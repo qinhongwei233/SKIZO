@@ -1,4 +1,4 @@
-z#
+#
 # Makefile for the linux networking.
 #
 # 2 Sep 2000, Christoph Hellwig <hch@infradead.org>
